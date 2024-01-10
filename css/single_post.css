@@ -1,0 +1,345 @@
+.logo {
+    display: block;
+
+    width: calc(92px - 10px);
+    margin: 0 10px 0 0;
+}
+
+.header-content {
+    padding: 34px 0;
+
+    background: #6d605b;
+}
+
+.fixed-header {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    padding: 15px 0;
+
+    transition: .5s;
+
+    background-color: #6d605b;
+}
+
+.fixed-header .menu li a {
+    color: #fff;
+}
+
+.fixed-header .menu li a:hover {
+    color: #629ed2;
+}
+
+.header-wrapper {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.menu li {
+    font-size: 15px;
+    font-weight: 500;
+
+    margin: 0 30px 0 0;
+
+    text-transform: uppercase;
+}
+
+.menu li:last-child {
+    margin: 0;
+}
+
+.menu li a {
+    transition: .3s;
+
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: #629ed2;
+}
+
+.single-post {
+    padding: 0 90px 90px 60px;
+}
+
+.heading {
+    max-width: 697px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    text-align: center;
+}
+
+.heading h2 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.projects-items {
+    display: flex;
+
+    margin: 0 -15px;
+
+    flex-wrap: wrap;
+}
+
+.projects-item-col {
+    display: flex;
+
+    width: 100%;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post-block {
+    width: 33.31%;
+    max-width: 370px;
+    margin: 0 0 30px;
+
+    background: #fff;
+}
+
+.post-block a {
+    display: block;
+}
+
+.post-block p {
+    margin: 0;
+
+    letter-spacing: 0.1px;
+}
+
+.post-image {
+    position: relative;
+
+    height: 240px;
+    margin: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.post-figcap {
+    font-size: 12px;
+
+    position: absolute;
+    bottom: 9px;
+    left: 10px;
+
+    width: 100%;
+    max-width: 90px;
+    padding: 6px 0 6px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+    background: #252525;
+}
+
+.post-text {
+    padding: 16px 24px 24px 30px;
+}
+
+.post-title {
+    font-size: 20px;
+
+    margin-bottom: 7px;
+
+    letter-spacing: 0.5px;
+}
+
+.post-time {
+    font-size: 12px;
+    font-weight: 500;
+
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    color: #171717;
+}
+
+.load-more-post {
+    font-size: 14px;
+
+    padding: 38px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .trigger {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        display: inline-block;
+
+        margin: 3px;
+
+        cursor: pointer;
+    }
+
+    .trigger i {
+        display: block;
+
+        width: 30px;
+        height: 6px;
+        margin: 4px auto;
+
+        background: #222;
+    }
+
+    .show {
+        display: block;
+
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .menu li {
+        margin: 0;
+    }
+
+    .header-wrapper {
+        position: relative;
+
+        display: block;
+    }
+
+    .header-content {
+        display: flex;
+
+        text-align: center;
+
+        justify-content: center;
+    }
+
+    .single-post {
+        padding: 5px;
+    }
+
+    .projects-item-col {
+        display: flex;
+
+        width: 100%;
+        padding: 0;
+
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .post-block {
+        margin: 0 15px 15px;
+    }
+
+    .post-text {
+        padding: 10px;
+    }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dcbef2bfd9fc8422092fe4b520dd270eff3c6299
+}
+
+@media screen and (min-width: 1024px) {
+    .header-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .post-block {
+        width: 31.1%;
+        margin: 0 0 30px;
+    }
+<<<<<<< HEAD
+=======
+    
+    .post-block {
+        width: 31.1%;
+        margin: 0 0 30px;
+    }
+    
+>>>>>>> dcbef2bfd9fc8422092fe4b520dd270eff3c6299
+}
+
+@media screen and (max-width: 1024px) {
+    .header-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .single-post {
+        padding: 10px;
+    }
+
+    .projects-item-col {
+        display: flex;
+
+        width: 100%;
+
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .post-block {
+        width: 31.1%;
+        margin: 0 0 30px;
+    }
+
+    .post-text {
+        padding: 10px;
+    }
+<<<<<<< HEAD
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .post-block {
+        width: 100%;
+        max-width: 320px;
+    }
+=======
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+        .post-block {
+            width: 100%;
+            max-width: 320px;
+        }
+        
+>>>>>>> dcbef2bfd9fc8422092fe4b520dd270eff3c6299
+}

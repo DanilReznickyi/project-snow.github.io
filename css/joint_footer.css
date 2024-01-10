@@ -1,0 +1,23 @@
+.joint-footer-items {
+    padding: 50px 0 50px 28px;
+
+    text-align: center;
+}
+
+.joint-footer-icons {
+    font-size: 16px;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.joint-footer-icons li {
+    padding: 0 15px 15px 0;
+}
+
+.joint-underfooter {
+    font-size: 14px;
+
+    padding-right: 10px;
+}

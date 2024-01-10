@@ -1,0 +1,76 @@
+#wrapper {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.visibility-hidden {
+    display: none;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+
+    color: #5f5f5f;
+    background: #f6f6f6;
+}
+
+a {
+    outline: none;
+}
+
+p {
+    margin: 0 0 38px 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25; /*в консоли копируем первые 4 цифры после запятой, вычисляется - в макете лайн-хейз делим на фонт-сайз*/
+
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+
+    color: #171717;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+
+    letter-spacing: .6px;
+
+    color: #171717;
+}
+
+section {
+    padding: 90px;
+}
+
+.row {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
